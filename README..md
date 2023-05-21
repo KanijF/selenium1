@@ -19,4 +19,16 @@ To run individual feature file
 
 `mvn clean test -Dcucumber.features="path/to/the/file.feature"`
 
-To run
+To run by tag
+
+
+### Git commands
+    git init
+    git add
+    git commit -m "first commit"
+    git push -u origin main
+    git diff README.md
+
+To get update from github to your local machine
+    
+    git pull
