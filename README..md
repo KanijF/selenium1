@@ -32,3 +32,14 @@ To run by tag
 To get update from github to your local machine
     
     git pull
+
+Check existing branches
+
+    git branch
+
+Create a new branch
+
+    git checkout -b gha_run_test
+
+Switch branches
+    git checkout BRANCH_NAME
