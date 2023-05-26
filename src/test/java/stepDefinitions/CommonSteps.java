@@ -14,6 +14,7 @@ public class CommonSteps extends Base{
         WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
         driver = new ChromeDriver();
         driver.get(url);
+        driver.manage().window().maximize();
     }
         @And("I quit the browser")
         public void iQuitTheBrowser() {

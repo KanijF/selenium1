@@ -42,4 +42,9 @@ Create a new branch
     git checkout -b gha_run_test
 
 Switch branches
+
     git checkout BRANCH_NAME
+
+To clone another repo into your machine
+
+git clone GITHUB_PROJECT_URL

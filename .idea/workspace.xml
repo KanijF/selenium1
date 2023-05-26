@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5be5000a-dc1f-4026-834f-4b7db4182cd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GURU99.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GURU99.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README..md" beforeDir="false" afterPath="$PROJECT_DIR$/README..md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/htmlReport/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/htmlReport/cucumber-html-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/htmlReport/cucumber-json-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/htmlReport/cucumber-json-report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: demoqa_checkboxes">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: GURU99" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GURU99.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Selenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: GURU99" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: demoqa_checkboxes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demoqa_checkboxes.feature" />
@@ -91,34 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User should be able to expand all checkbox options and select public and private" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User should be able to successfully pay for the product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demoqa_checkboxes.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GURU99.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Selenium" />
-      <option name="NAME_FILTER" value="^User should be able to expand all checkbox options and select public and private$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be able to expand all checkbox options and select public and private$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User should be able to expand all checkbox options and select public and private" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User should be able to search for vehicle" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/vehicle_search.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Selenium" />
-      <option name="NAME_FILTER" value="^User should be able to search for vehicle$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be able to search for vehicle$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User should be able to search for vehicle" />
+      <option name="NAME_FILTER" value="^User should be able to successfully pay for the product$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be able to successfully pay for the product$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should be able to successfully pay for the product" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: demoqa_checkboxes" />
-        <item itemvalue="Cucumber Java.Scenario: User should be able to search for vehicle" />
-        <item itemvalue="Cucumber Java.Feature: saucedemo_login" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: User should be able to expand all checkbox options and select public and private" />
+        <item itemvalue="Cucumber Java.Scenario: User should be able to successfully pay for the product" />
+        <item itemvalue="Cucumber Java.Feature: GURU99" />
+        <item itemvalue="Cucumber Java.Feature: saucedemo_login" />
+        <item itemvalue="Cucumber Java.Feature: demoqa_checkboxes" />
       </list>
     </recent_temporary>
   </component>
